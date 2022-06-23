@@ -64,14 +64,14 @@ public class Firma {
 		firma.angajeaza(a3);
 		firma.angajeaza(a4);
 		
-		firma.salariuMediu();
+		System.out.println("Salariu mediu: " + firma.salariuMediu());
 		
 		// adaugarea unei persoane existente in firma
 		firma.angajeaza(a1);
 		
 		((AngajatCuSalarFix)a1).schimbaSalarFix(2000.0);
 		
-		firma.salariuMediu();
+		System.out.println("Salariu mediu: " + firma.salariuMediu());
 	
 	}
 
