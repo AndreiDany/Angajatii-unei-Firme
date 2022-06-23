@@ -24,12 +24,12 @@ public class Firma {
 				System.out.println("Persoana " + angajat.getNume() + "este deja in firma!");
 			}
 		}
-		if(esteInFirma == false)
-			return true;
-		else{
+		if(esteInFirma == false) {
 			angajati.add(angajat);
-			return false;
+			return true;
 		}
+
+		return false;
 	}
 	
 	public double salariuMediu() {
