@@ -26,8 +26,10 @@ public class Firma {
 		}
 		if(esteInFirma == false)
 			return true;
-		else
+		else{
+			angajati.add(angajat);
 			return false;
+		}
 	}
 	
 	public double salariuMediu() {
